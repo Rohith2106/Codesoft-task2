@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel = "icon" href = "images/logo.png" type = "image/x-icon">
+
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <header class="header">
+
+
+        <section class="flex">
+
+            <div id="menu-btn" class="fas fa-bars-staggered"></div>
+
+            <a href="index.html" class="logo"><i class="fa-regular fa-building"></i>JobCart</a>
+
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="jobs.html">Find Jobs</a>
+                <a href="#footer">About Us</a>
+                <a href="#footer">Contact Us</a>
+                <a href="login.html"><i class="fa-regular fa-user"></i></a>
+            </nav>
+            <a href="jobs.html" class="btn" style="margin-top: 0;"><i class="fa-solid fa-magnifying-glass"></i>  Search</a>
+            <a href="jobs.html" class="btn" style="margin-top: 0;">Post Job</a>
+
+        </section>
+    </header>
+
+    <div class="account-form-container">
+
+        <section class="account-form">
+
+            <form action="" method="post">
+                <h3>Create new account!!</h3>
+                <input type="text" required name="name" maxlength="20" placeholder="enter your name" class="input">
+                <input id = 'rmail' type="email" required name="email" maxlength="50" placeholder="enter your email" class="input">
+                <input type="password" required name="pass" maxlength="20" placeholder="enter your password" class="input">
+                <input id = "rpass" type="password" required name="c_pass" maxlength="20" placeholder="confirm your password" class="input">
+                <p>Already have an account? <a href="login.html">Login Now</a> </p>
+                <input type="submit" value="Register Now" name="submit" class="btn" onclick="savelogin()" action="login.html">
+            </form>
+    
+        </section>
+
+    </div>
+
+    <div class="section-title">Contact Us
+        <section class="contact">
+
+            <div class="box-container">
+    
+                <div class="box">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+91-1234567890">+91-123-456-7890</a>
+                    <a href="tel:+91-1122334455">+91-123-456-7891</a>
+                </div>
+    
+                <div class="box">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:example1@gmail.com">example1@gmail.com</a>
+                    <a href="mailto:example2@gmail.com">example2@gmail.com</a>
+                </div>
+    
+                <div class="box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="https://maps.app.goo.gl/35Awr7ajqJMxZQ2p7">No. 3, Old Madras Rd, Bennigana Halli , Bengaluru, Karnataka 560016</a>
+                </div>
+    
+            </div>
+    
+        </section>
+    </div>
+
+
+
+    
+    <footer>
+        <div id="footer">
+            <div class="footer-content">
+            <h3>JobCart</h3>
+            <p>This website is made for a Virtual Intership project</p>
+            <ul class="socials">
+                <li><a href="https://www.instagram.com/rohith0621" target="_blank"><i class="fab fa-instagram"></i></i></a></li>
+                <li><a href="https://twitter.com/rohith06212002" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></i></a></li>
+                <li><a href="mailto:rohithkumarr.cse2022@citchennai.net" target="_blank"><i class="fa-solid fa-envelope"></i></i></a></li>
+                <li><a href="https://www.youtube.com/@mkbhd" target="_blank"><i class="fab fa-youtube"></i></i></a></li>
+                <li><a href="https://www.linkedin.com/in/rohith-kumar-a3993025b" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 JobCart. designed by <span>Rohith</span></p>
+        </div>
+    </footer>
+
+
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
